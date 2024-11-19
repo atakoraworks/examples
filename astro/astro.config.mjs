@@ -8,7 +8,7 @@ export default defineConfig({
 	site: 'https://example.com',
 	integrations: [mdx(), sitemap()],
 	server:{
-		port: 3000,
+		port: 8085,
 		host: true
 	}
 });
